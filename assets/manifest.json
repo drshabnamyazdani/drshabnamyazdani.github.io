@@ -1,0 +1,15 @@
+{
+    "name": "Dr. Shabnam Yazdani",
+    "short_name": "SHYazdani",
+    "start_url": "https://drshabnamyazdani.github.io",
+    "display": "fullscreen",
+    "background_color": "#fff",
+    "theme_color": "white",
+    "orientation": "landscape",
+    "description": "Official page",
+    "icons": [{
+        "src": "./favicon.png",
+        "sizes": "250x250",
+        "type": "image/jpg"
+    }]
+}

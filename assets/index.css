@@ -2644,9 +2644,12 @@ hr {
     }
 }
 
+.banner {
+    margin-bottom: 80px;
+}
+
 .lates-title {
     position: relative;
-    margin-bottom: 80px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 1px;

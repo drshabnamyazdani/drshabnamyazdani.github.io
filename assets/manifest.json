@@ -1,12 +1,12 @@
 {
-    "name": "Dr. Shabnam Yazdani",
-    "short_name": "SHYazdani",
+    "name": "دکتر شبنم یزدانی",
+    "short_name": "دکتر یزدانی",
     "start_url": "https://drshabnamyazdani.github.io",
     "display": "fullscreen",
     "background_color": "#fff",
     "theme_color": "white",
-    "orientation": "landscape",
-    "description": "Official page",
+    "orientation": "portrait",
+    "description": "صفحه رسمی دکتر شبنم یزدانی",
     "icons": [{
         "src": "./favicon.png",
         "sizes": "250x250",

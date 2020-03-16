@@ -3,8 +3,8 @@
     "short_name": "دکتر یزدانی",
     "start_url": "https://drshabnamyazdani.github.io",
     "display": "fullscreen",
-    "background_color": "#fff",
-    "theme_color": "white",
+    "background_color": "#010A2D",
+    "theme_color": "#010A2D",
     "orientation": "portrait",
     "description": "صفحه رسمی دکتر شبنم یزدانی",
     "icons": [{

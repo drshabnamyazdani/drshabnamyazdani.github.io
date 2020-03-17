@@ -1,12 +1,12 @@
 {
-    "name": "دکتر شبنم یزدانی",
+    "name": "ویترین تجربیات فضایی من",
     "short_name": "دکتر یزدانی",
     "start_url": "https://drshabnamyazdani.ir",
     "display": "fullscreen",
     "background_color": "#010A2D",
     "theme_color": "#010A2D",
     "orientation": "portrait",
-    "description": "صفحه رسمی دکتر شبنم یزدانی",
+    "description": "ویترین تجربیات فضایی من",
     "icons": [{
         "src": "./favicon.png",
         "sizes": "250x250",

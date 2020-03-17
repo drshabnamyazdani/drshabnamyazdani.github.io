@@ -1,15 +1,341 @@
-{
-    "name": "ویترین تجربیات فضایی و زمینی من",
-    "short_name": "دکتر یزدانی",
-    "start_url": "https://drshabnamyazdani.ir",
-    "display": "fullscreen",
-    "background_color": "#010A2D",
-    "theme_color": "#010A2D",
-    "orientation": "portrait",
-    "description": "ویترین تجربیات فضایی من",
-    "icons": [{
-        "src": "./favicon.png",
-        "sizes": "250x250",
-        "type": "image/jpg"
-    }]
-}
+< html lang = "fa" >
+
+    <
+    head >
+    <
+    title > ویترین تجربیات فضایی و زمینی من < /title> <
+    meta name = "description"
+content = "مدرس دانشگاه و مدیرکل توسعه کسب  کارهای فضاپایه سازمان فضایی ایران" >
+    <
+    meta charset = "UTF-8" >
+    <
+    meta name = "viewport"
+content = "width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <
+    meta http - equiv = "X-UA-Compatible"
+content = "ie=edge" >
+    <
+    meta name = "robots"
+content = "all,follow" >
+    <
+    meta property = "og:type"
+content = "website" >
+    <
+    meta property = "og:url"
+content = "https://drshabnamyazdani.ir" >
+    <
+    meta property = "og:title"
+content = "ویترین تجربیات فضایی و زمینی من" >
+    <
+    meta property = "og:description"
+content = "مدرس دانشگاه و مدیرکل توسعه کسب  کارهای فضاپایه سازمان فضایی ایران" >
+    <
+    meta property = "og:image"
+content = "./assets/profile.jpg" >
+    <
+    meta property = "twitter:card"
+content = "summary_large_image" >
+    <
+    meta property = "twitter:url"
+content = "https://drshabnamyazdani.ir" >
+    <
+    meta property = "twitter:title"
+content = "ویترین تجربیات فضایی و زمینی من" >
+    <
+    meta property = "twitter:description"
+content = "مدرس دانشگاه و مدیرکل توسعه کسب  کارهای فضاپایه سازمان فضایی ایران" >
+    <
+    meta property = "twitter:image"
+content = "./assets/profile.jpg" >
+    <
+    link rel = "icon"
+type = "image/png"
+href = "./assets/favicon.png" >
+    <
+    link rel = "stylesheet"
+href = "./assets/index.css" >
+    <
+    link rel = "manifest"
+href = "./assets/manifest.json" >
+    <
+    link href = "https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"
+rel = "stylesheet" >
+    <
+    link href = "https://cdn.rawgit.com/rastikerdar/vazir-font/v23.0.0/dist/font-face.css"
+rel = "stylesheet"
+type = "text/css" / >
+
+    <
+    /head>
+
+<
+body >
+    <
+    div class = "container" >
+    <
+    div class = "row" >
+    <
+    div class = "col col-12" >
+    <
+    header class = "header" >
+    <
+    div class = "logo" >
+    <
+    a class = "logo__link"
+href = "#" >
+    <!-- <img class="logo__image" src="./assets/profile.jpg" alt="تصویر"> -->
+    English <
+    /a> <
+    /div> <
+    nav class = "main-nav" >
+    <
+    div class = "main-nav__box" >
+    <!-- <div class="nav-icon__close">
+    <
+    i class = "ion ion-ios-close-circle-outline" > < /i> <
+    /div> --> <
+    div class = "nav__title" > پیوندها < /div> <
+    ul class = "nav__list list-reset" >
+    <
+    li class = "nav__item" >
+    <
+    a href = "https://drshabnamyazdani.ir"
+class = "nav__link" > صفحه اصلی < /a> <
+    /li> <
+    li class = "nav__item" >
+    <
+    a href = "https://isa.ir/dform/155/156/"
+class = "nav__link" > ملاقات حضوری < /a> <
+    /li> <
+    li class = "nav__item" >
+    <
+    a href = "#"
+class = "nav__link" > مقالات علمی < /a> <
+    /li> <
+    /ul> <
+    /div> <
+    /nav> <
+    div class = "nav-buttons" >
+    <
+    i class = "nav__icon nav__icon-menu ion ion-md-menu"
+aria - label = "Menu Icon" > < /i> <
+    /div> <
+    div class = "header__overlay" > < /div> <
+    /header> <
+    /div> <
+    /div> <
+    /div>
+
+<
+main class = "content"
+aria - label = "Content" >
+
+    <
+    div class = "hero" >
+    <
+    div class = "stars" > < /div> <
+    div class = "container" >
+    <
+    div class = "row" >
+    <
+    div class = "col col-6 col-t-12 last-item" >
+    <
+    div class = "hero__content" >
+    <
+    h1 class = "hero__title" > < strong > شبنم یزدانی < /strong></h
+1 >
+    <
+    p class = "hero__subtitle" >
+    دکتری هوافضا و مدرس دانشگاه <
+    br > مدیرکل توسعه کسب و کارهای فضاپایه سازمان فضایی <
+    /p> <
+    div class = "hero__social" >
+    <
+    span class = "hero__social-title" > دنبال کنید | ‌ < /span> <
+    div class = "contact" >
+    <
+    ul class = "contact__list list-reset" >
+    <
+    li > < a title = "Instagram"
+href = "https://instagram.com/dr.shabnam.yazdani" > < i class = "ion ion-logo-instagram" > < /i></a > < /li> <
+    li > < a title = "Linkedin"
+href = "https://www.linkedin.com/in/shabnam-yazdani-25ba071a4/" > < i class = "ion ion-logo-linkedin" > < /i></a > < /li> <
+    li >
+    <
+    a title = "ویرگول"
+href = "https://virgool.io/@drshabnamyazdani" > < img class = "virgool"
+src = "./assets/virgool.png"
+height = "15px"
+width = "15px" > < /a> <
+    /li> <
+    li > < a title = "رایانامه"
+href = "mailto:shyazdani@isa.ir" > < i class = "ion ion-ios-mail" > < /i></a > < /li> <
+    li > < a title = "تلفن"
+href = "tel:+9821233442533" > < i class = "ion ion-ios-call" > < /i></a > < /li> <
+    li > < a title = "دورنگار"
+href = "tel:+982122029764" > < i class = "ion ion-ios-paper" > < /i></a > < /li> <
+    /ul> <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    div class = "col col-6 col-t-12" >
+    <
+    div class = "hero__image" >
+    <
+    img src = "./assets/profile.jpg"
+alt = "دکتر شبنم یزدانی - تصویر شاخص" >
+    <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    div class = "container" >
+    <
+    div class = "row" >
+    <
+    div class = "col col-12" >
+    <
+    h4 class = "lates-title" > اطلاع رسانی < /h4> <
+    /div> <
+    /div> <
+    /div> <
+    div class = "container" >
+    <
+    div class = "row" >
+    <
+    div class = "col col-12" >
+    <
+    a href = "http://www.dotrinex.ir/"
+title = "برای اطلاعات بیشتر کلیک کنید" >
+    <
+    img class = "banner"
+src = "./assets/dotrinex.jpg" >
+    <
+    /a> <
+    /div> <
+    /div> <
+    /div> <
+    div class = "container" >
+    <
+    div class = "row" >
+    <
+    div class = "col col-12" >
+    <
+    h4 class = "lates-title" > آخرین مطالب < /h4> <
+    /div> <
+    /div> <
+    /div> <
+    div class = "container" >
+    <
+    div class = "row" >
+    <
+    div class = "article" >
+    <
+    div class = "container" >
+    <
+    div class = "article__wrapper" >
+    <
+    a href = "https://isa.ir/content/4030/%D9%86%D9%82%D8%B4-%D8%A8%DB%8C%E2%80%8C%D8%A8%D8%AF%DB%8C%D9%84-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%DA%A9%D8%B3%D8%A8%E2%80%8C%D9%88%DA%A9%D8%A7%D8%B1%D9%87%D8%A7"
+class = "article__image"
+style = "background-image: url(assets/isa.jpg)" >
+    <
+    /a> <
+    div class = "article__content " >
+    <
+    div class = "article-tags" >
+    <
+    div class = "article-tags__box" >
+    <
+    a href = "https://isa.ir/"
+class = "article__tag" > سازمان فضایی ایران < /a> <
+    /div> <
+    /div> <
+    h2 class = "article__title" >
+    <
+    a href = "https://isa.ir/content/4030/%D9%86%D9%82%D8%B4-%D8%A8%DB%8C%E2%80%8C%D8%A8%D8%AF%DB%8C%D9%84-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%DA%A9%D8%B3%D8%A8%E2%80%8C%D9%88%DA%A9%D8%A7%D8%B1%D9%87%D8%A7" >
+    نقش فناوری فضایی در توسعه کسب‌وکارها <
+    /a> <
+    /h2> <
+    p class = "article__excerpt" >
+    به گزارش مرکز روابط عمومی و اطلاع رسانی وزارت ارتباطات و فناوری اطلاعات، توسعه کسب‌‌وکارها بحثی است که طی چند سال گذشته مورد تاکید سازمان فضایی ایران قرار گرفته است.همزمانی این اتفاق به توسعه سیستم استارتاپی کشور باعث شده تا فناوری فضایی با سرعت بالایی
+در توسعه کسب‌وکارها تاثیر بگذارد. <
+    /p> <
+    div class = "article__footer" >
+    <
+    div class = "article__meta" >
+    <
+    span class = "article__date" > اسفند۱۳۹۸ < /span> <
+    /div> <
+    a href = "https://isa.ir/content/4030/%D9%86%D9%82%D8%B4-%D8%A8%DB%8C%E2%80%8C%D8%A8%D8%AF%DB%8C%D9%84-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%DA%A9%D8%B3%D8%A8%E2%80%8C%D9%88%DA%A9%D8%A7%D8%B1%D9%87%D8%A7"
+class = "read-more" > ادامه مطلب < i class = "ion ion-ios-arrow-back" > < /i></a >
+    <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    div class = "article" >
+    <
+    div class = "container" >
+    <
+    div class = "article__wrapper" >
+    <
+    a href = "https://www.aparat.com/v/0mjUt/%D9%81%D8%A7%D8%B5%D9%84%D9%87_%D8%B9%D9%84%D9%85_%D8%AA%D8%A7_%D8%B5%D9%86%D8%B9%D8%AA:_%DA%86%DA%AF%D9%88%D9%86%D9%87_%D9%85%D8%A7_%D9%85%D8%B3%D8%A6%D9%88%D9%84%D9%8A%D9%85%D8%9F_%7C_%D8%B4%D8%A8%D9%86%D9%85_%DB%8C%D8%B2%D8%AF%D8%A7%D9%86%DB%8C?__twitter_impression=true"
+class = "article__image"
+style = "background-image: url(assets/tehrantedx.png)" >
+    <
+    /a> <
+    div class = "article__content " >
+    <
+    div class = "article-tags" >
+    <
+    div class = "article-tags__box" >
+    <
+    a href = "http://tedxtehran.com/"
+class = "article__tag" > TEDxTehran < /a> <
+    /div> <
+    /div> <
+    h2 class = "article__title" >
+    <
+    a href = "https://www.aparat.com/v/0mjUt/%D9%81%D8%A7%D8%B5%D9%84%D9%87_%D8%B9%D9%84%D9%85_%D8%AA%D8%A7_%D8%B5%D9%86%D8%B9%D8%AA:_%DA%86%DA%AF%D9%88%D9%86%D9%87_%D9%85%D8%A7_%D9%85%D8%B3%D8%A6%D9%88%D9%84%D9%8A%D9%85%D8%9F_%7C_%D8%B4%D8%A8%D9%86%D9%85_%DB%8C%D8%B2%D8%AF%D8%A7%D9%86%DB%8C?__twitter_impression=true" > فاصله علم تا صنعت < /a> <
+    /h2> <
+    p class = "article__excerpt" >
+    ایده‌های علمی که برای گرفتن مدرک دانشگاهی تبدیل به مقالات پر طمطراق بین المللی می‌شوند کمتر اثری از خود در صنعت فناوری‌های پیشرفته ایران داشته‌اند.شبنم یزدانی به عنوان محقق رشته هوافضا که هم در دانشگاه و هم در صنعت فعالیت داشته است از راه حلی شناخته
+شده برای پر کردن فاصله بین علم و عمل و حرکت در ماز پیچیده صنعتی شدن می‌گوید. < /p> <
+    div class = "article__footer" >
+    <
+    div class = "article__meta" >
+    <
+    span class = "article__date" > مهر۱۳۹۸ < /span> <
+    /div> <
+    a href = "https://www.aparat.com/v/0mjUt/%D9%81%D8%A7%D8%B5%D9%84%D9%87_%D8%B9%D9%84%D9%85_%D8%AA%D8%A7_%D8%B5%D9%86%D8%B9%D8%AA:_%DA%86%DA%AF%D9%88%D9%86%D9%87_%D9%85%D8%A7_%D9%85%D8%B3%D8%A6%D9%88%D9%84%D9%8A%D9%85%D8%9F_%7C_%D8%B4%D8%A8%D9%86%D9%85_%DB%8C%D8%B2%D8%AF%D8%A7%D9%86%DB%8C?__twitter_impression=true"
+class = "read-more" > مشاهده فیلم < i class = "ion ion-ios-arrow-back" > < /i></a >
+    <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    /div> <
+    /main>
+
+<
+footer class = "footer" >
+    <
+    div class = "container" >
+    <
+    div class = "copyright" > تمامی حقوق مادی و معنوی این اثر محفوظ است < /div> <
+    /div> <
+    /footer>
+
+<
+script src = "./scripts/jquery-3.3.1.min.js" > < /script> <
+    script src = "./scripts/transition.js" > < /script> <
+    script src = "./scripts/common.js" > < /script> <
+    /body>
+
+<
+/html>

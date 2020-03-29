@@ -32,10 +32,10 @@ $(document).ready(function() {
 particlesJS('particles-js', {
     "particles": {
         "number": {
-            "value": 250,
+            "value": 600,
             "density": {
                 "enable": true,
-                "value_area": 1000
+                "value_area": 1500
             }
         },
         "color": {
@@ -77,11 +77,11 @@ particlesJS('particles-js', {
             }
         },
         "line_linked": {
-            "enable": false,
-            "distance": 150,
+            "enable": true,
+            "distance": 100,
             "color": "#ffffff",
-            "opacity": 0.4,
-            "width": 1
+            "opacity": 0.1,
+            "width": 0.5
         },
         "move": {
             "enable": true,
@@ -98,7 +98,7 @@ particlesJS('particles-js', {
         }
     },
     "interactivity": {
-        "detect_on": "canvas",
+        "detect_on": "window",
         "events": {
             "onhover": {
                 "enable": false,

@@ -2305,7 +2305,8 @@ hr {
         margin-bottom: 40px
     }
     .hero .last-item {
-        order: 1
+        order: 1;
+        z-index: 6;
     }
     .hero .hero__content .hero__title {
         margin-bottom: 20px;

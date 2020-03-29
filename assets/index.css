@@ -2254,7 +2254,8 @@ hr {
 }
 
 .hero .last-item {
-    display: flex
+    display: flex;
+    z-index: 6;
 }
 
 .hero .hero__content {

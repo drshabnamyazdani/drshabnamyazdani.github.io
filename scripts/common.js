@@ -15,8 +15,15 @@ function changePage(dir) {
     }
 
     for (var i = (page - 1) * count; i < page * count; i++) {
-        if (articles[i])
+        if (articles[i]) {
             articles[i].style.display = 'block';
+        }
+    }
+
+    if (page > 1) {
+        $("html, body")
+            .stop()
+            .animate({ scrollTop: 900 }, "slow", "swing");
     }
 }
 

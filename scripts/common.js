@@ -1,4 +1,26 @@
-$(document).ready(function() {
+
+var page = 0;
+
+function changePage(dir) {
+    const count = 4;
+    var articles = document.getElementsByClassName('article');
+    page = dir === 'next' ? page + 1 : page - 1;
+    page = page < 1 ? 1 : page;
+    page = page * count > articles.length ? page - 1 : page;
+
+    document.getElementById('prev').className = (page === 1) ? 'disabled' : 'previous-link';
+    document.getElementById('next').className = (page * count >= articles.length) ? 'disabled' : 'next-link';
+    for (var i = 0; i < articles.length; i++) {
+        articles[i].style.display = 'none';
+    }
+
+    for (var i = (page - 1) * count; i < page * count; i++) {
+        if (articles[i])
+            articles[i].style.display = 'block';
+    }
+}
+
+$(document).ready(function () {
     'use strict';
 
     var headerOverlay = $(".header__overlay"),
@@ -6,15 +28,15 @@ $(document).ready(function() {
         menuCloseIcon = $(".nav-icon__close"),
         menuList = $(".main-nav");
 
-    menuOpenIcon.click(function() {
+    menuOpenIcon.click(function () {
         menuOpen();
     })
 
-    menuCloseIcon.click(function() {
+    menuCloseIcon.click(function () {
         menuClose();
     })
 
-    headerOverlay.click(function() {
+    headerOverlay.click(function () {
         menuClose();
     });
 
@@ -27,7 +49,13 @@ $(document).ready(function() {
         menuList.removeClass("is-open");
         headerOverlay.removeClass("is-visible");
     }
+
+    changePage('next');
+
 });
+
+
+
 
 particlesJS('particles-js', {
     "particles": {

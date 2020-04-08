@@ -4,9 +4,16 @@ var page = 0;
 function changePage(dir) {
     const count = 4;
     var articles = document.getElementsByClassName('article');
+    if (page >= 1) {
+        $("html, body")
+            .stop()
+            .animate({ scrollTop: 900 }, "slow", "swing");
+    }
     page = dir === 'next' ? page + 1 : page - 1;
     page = page < 1 ? 1 : page;
     page = page * count > articles.length ? page - 1 : page;
+
+
 
     document.getElementById('prev').className = (page === 1) ? 'disabled' : 'previous-link';
     document.getElementById('next').className = (page * count >= articles.length) ? 'disabled' : 'next-link';
@@ -20,11 +27,7 @@ function changePage(dir) {
         }
     }
 
-    if (page > 1) {
-        $("html, body")
-            .stop()
-            .animate({ scrollTop: 900 }, "slow", "swing");
-    }
+
 }
 
 $(document).ready(function () {

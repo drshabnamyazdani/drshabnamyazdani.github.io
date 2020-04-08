@@ -1,5 +1,8 @@
 
-var page = 0;
+var param = document.URL.substring(document.URL.lastIndexOf('#') + 1);
+var page = isNaN(Number(param)) ? 0 : Number(param)-1;
+
+changePage('next');
 
 function changePage(dir) {
     const count = 4;
@@ -13,10 +16,10 @@ function changePage(dir) {
     page = page < 1 ? 1 : page;
     page = page * count >= articles.length + count ? page - 1 : page;
 
-
-
     document.getElementById('prev').className = (page === 1) ? 'disabled' : 'previous-link';
     document.getElementById('next').className = (page * count >= articles.length) ? 'disabled' : 'next-link';
+    document.getElementById('prev').href = "#" + Number(page);
+    document.getElementById('next').href = "#" + Number(page);
     for (var i = 0; i < articles.length; i++) {
         articles[i].style.display = 'none';
     }
@@ -59,8 +62,6 @@ $(document).ready(function () {
         menuList.removeClass("is-open");
         headerOverlay.removeClass("is-visible");
     }
-
-    changePage('next');
 
 });
 

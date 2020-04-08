@@ -11,7 +11,7 @@ function changePage(dir) {
     }
     page = dir === 'next' ? page + 1 : page - 1;
     page = page < 1 ? 1 : page;
-    page = page * count > articles.length + count ? page - 1 : page;
+    page = page * count >= articles.length + count ? page - 1 : page;
 
 
 
